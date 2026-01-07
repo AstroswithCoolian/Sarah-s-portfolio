@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SARah</title>
+<style> h3{
+    color:magenta;
+    background-color:pink;
+    text-align:center;
+    padding:10px;
+}
+body{
+    padding:0;
+    margin:0;
+    background-image:url(https://thumbs.dreamstime.com/b/pink-birthday-background-balloons-confetti-festive-pink-background-decorated-colorful-balloons-confetti-374981641.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+div{
+    width:200px;
+    height:45px;
+    font-weight:bold;
+    font-size:30px;
+    position:relative;
+    background-color:plum;
+    animation:sarah 5s;
+    animation-fill-mode: forwards;
+    margin-bottom: 10px;
+}
+h3::first-letter{
+font-size:40px;
+font-family:cursive;
+text-shadow: 7px 10px 11px snow;
+}
+#div1{animation-timing-function:linear;}
+#div2{animation-timing-function:ease;}
+#div3{animation-timing-function:ease-in;}
+#div4{animation-timing-function:ease-out;}
+#div5{animation-timing-function:ease-in-out;}
+ @keyframes sarah{
+    from{left:0px;}
+    to{left:300px;}
+ } </style>
+</head>
+<body>
+<h3> Rubab's 7th Birthday </h3>
+<div id="div1">HAPPY</div>
+<div id="div2">BIRTHDAY</div>
+<div id="div3">TO</div>
+<div id="div4">YOU</div>
+<div id="div5">RUBAB</div>
+</body>
+</html>
